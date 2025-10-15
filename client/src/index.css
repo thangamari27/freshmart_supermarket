@@ -1,0 +1,32 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+/* Tailwind-like utility classes */
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.hover-shadow {
+  transition: all 0.3s ease;
+}
+
+.hover-shadow:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.transition {
+  transition: all 0.3s ease;
+}
+
+/* Custom container sizes */
+.container-fluid {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-xl, .container-xxl {
+    max-width: 1320px;
+  }
+}
